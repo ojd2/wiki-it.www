@@ -11,7 +11,7 @@
   HTTP request to the back end from
   the client-side. 
 
-  e.g. lookup via "state.pages"
+  e.g. lookup via "state.results"
 
 */
 import Vuex from 'vuex'
@@ -19,11 +19,11 @@ import Vuex from 'vuex'
 const createStore = () => {
   return new Vuex.Store({
     state: {                                       
-      pages: []
+      results: []
     },
     mutations: {
       add (state, payload) {               
-        state.pages = payload;
+        state.results = payload;
       }
     }
   })

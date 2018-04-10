@@ -23,8 +23,8 @@
       computed: {                                            
         resultsData(){
           console.log("Store Response:");
-          console.log(this.$store.state.pages);
-          return this.$store.state.pages;
+          console.log(this.$store.state.results);
+          return this.$store.state.results;
         }
       },
       middleware: 'search'                                   
