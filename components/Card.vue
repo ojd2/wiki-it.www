@@ -44,6 +44,8 @@
     text-align: center;
     margin:10px 0px;
     padding:10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
   }
   .headline {

@@ -33,7 +33,9 @@
   }
   .search-input {
     border:2px solid silver !important;
-    border-radius:3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
     padding:20px;
     width:50%;
     font-size:18px;
