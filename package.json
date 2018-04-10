@@ -1,0 +1,31 @@
+{
+  "name": "wiki-it",
+  "version": "1.0.0",
+  "description": "Simple Wikipedia Search",
+  "author": "ojd2 <ojd2@st-andrews.ac.uk>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1",
+    "nuxt": "^1.0.0",
+    "vuetify": "^1.0.13"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "expose-loader": "^0.7.5",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
