@@ -29,7 +29,7 @@
   h1 {
     padding: 30px;
     text-align: center;
-    font-family: Roboto !important;
+    font-family: 'Roboto', Arial !important;
   }
   .search-input {
     border:2px solid silver !important;
@@ -40,7 +40,7 @@
     width:50%;
     font-size:14px;
     background:#F0F4F1;
-    font-family: Roboto !important;
+    font-family: 'Roboto', Arial !important;
   }
   @media only screen 
   and (min-width : 300px) 

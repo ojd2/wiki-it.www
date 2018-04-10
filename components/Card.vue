@@ -38,7 +38,7 @@
 
 <style>
   .card {
-    font-family: Roboto !important;
+    font-family: 'Roboto', Arial !important;
     box-shadow: none !important;
     background:#C7DBD0;
     text-align: center;
