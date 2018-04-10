@@ -38,8 +38,15 @@
     border-radius: 3px;
     padding:20px;
     width:50%;
-    font-size:18px;
+    font-size:14px;
     background:#F0F4F1;
     font-family: Roboto !important;
   }
+  @media only screen 
+  and (min-width : 300px) 
+  and (max-width : 1024px)  { 
+    .search-input {
+      width:100%;
+    }
+}
 </style>
